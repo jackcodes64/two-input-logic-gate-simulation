@@ -31,27 +31,27 @@ int main(){
         }
         switch(gate){
             case 1://AND gate
-            std::cout<<(firstInput && secondInput)<<std::endl;
+            std::cout<<"The output for ANDing "<<firstInput<<" and "<<secondInput<<" is "<<(firstInput && secondInput)<<std::endl;
             break;
 
             case 2://OR gate
-            std::cout<<(firstInput || secondInput)<<std::endl;
+            std::cout<<"The output for ORing "<<firstInput<<" and "<<secondInput<<" is "<<(firstInput || secondInput)<<std::endl;
             break;
 
             case 3://NAND gate
-            std::cout<<((firstInput && secondInput)? 0: 1)<<std::endl;
+            std::cout<<"The output for NANDing "<<firstInput<<" and "<<secondInput<<" is "<<((firstInput && secondInput)? 0: 1)<<std::endl;
             break;
 
             case 4://NOR gate
-            std::cout<< ((firstInput || secondInput)? 0: 1)<<std::endl;
+            std::cout<<"The output for NORing "<<firstInput<<" and "<<secondInput<<" is "<< ((firstInput || secondInput)? 0: 1)<<std::endl;
             break;
 
             case 5://XOR gate
-            std::cout<<(firstInput ^ secondInput)<<std::endl;
+            std::cout<<"The output for XORing "<<firstInput<<" and "<<secondInput<<" is "<<(firstInput ^ secondInput)<<std::endl;
             break;
 
             case 6:// XNOR
-            std::cout<< ((firstInput ^ secondInput)? 0: 1)<<std::endl;
+            std::cout<<"The output for XNORing "<<firstInput<<" and "<<secondInput<<" is "<< ((firstInput ^ secondInput)? 0: 1)<<std::endl;
             break;
 
             default:
