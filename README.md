@@ -9,4 +9,4 @@ Supports:
   6. XNOR gate
 
 It is important to note that the implementation only take two binary variables per logic gate. 
-And gate was omitted for its directness. 
+And NOT gate was omitted for its directness. 
