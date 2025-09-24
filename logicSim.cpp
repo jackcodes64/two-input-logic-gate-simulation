@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 
-//felix get out of my code
+//felix Ochieng', get out of my code.
 int main(){
     char reply;
     int firstInput {}, secondInput {}, gate {}, numeric{};
